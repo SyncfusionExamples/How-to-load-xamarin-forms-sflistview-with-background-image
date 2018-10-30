@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfListViewSample.Android", "Listview-background-image\Listview-background-image.Android\SfListViewSample.Android.csproj", "{6167D444-3C2B-4CE9-80EE-7FC7AE1CFDEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfListViewSample.Android", "ListviewBackgroundImage\ListviewBackgroundImage.Android\SfListViewSample.Android.csproj", "{6167D444-3C2B-4CE9-80EE-7FC7AE1CFDEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfListViewSample.iOS", "Listview-background-image\Listview-background-image.iOS\SfListViewSample.iOS.csproj", "{C7209D7F-0094-4904-AD12-BD3B50A2974A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfListViewSample.iOS", "ListviewBackgroundImage\ListviewBackgroundImage.iOS\SfListViewSample.iOS.csproj", "{C7209D7F-0094-4904-AD12-BD3B50A2974A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfListViewSample.UWP", "Listview-background-image\Listview-background-image.UWP\SfListViewSample.UWP.csproj", "{0C12CC4F-613C-40F6-8094-19C28E45C327}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfListViewSample.UWP", "ListviewBackgroundImage\ListviewBackgroundImage.UWP\SfListViewSample.UWP.csproj", "{0C12CC4F-613C-40F6-8094-19C28E45C327}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfListViewSample", "Listview-background-image\Listview-background-image\SfListViewSample.csproj", "{A67C6D4D-D8F0-46E8-8A16-6E5B20867FE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SfListViewSample", "ListviewBackgroundImage\ListviewBackgroundImage\SfListViewSample.csproj", "{A67C6D4D-D8F0-46E8-8A16-6E5B20867FE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
