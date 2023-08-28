@@ -2,8 +2,39 @@
 
 This example demonstrates how to load an background image for listview in Xamarin.Forms.
 
-See [How to load Xamarin.Forms SfListView with background image?](https://www.syncfusion.com/kb/9479/how-to-load-listview-with-background-image) for more details.
+## Xaml
 
+ ```
+<ContentPage xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms" >
+    <ContentPage.Content>
+        <Grid>
+          <Image Source="{Binding BackgroundImage}" Aspect="AspectFill"/>
+         <syncfusion:SfListView x:Name="listView" ItemsSource="{Binding contactsinfo}">
+               <syncfusion:SfListView.GroupHeaderTemplate>
+                      <DataTemplate>
+                           <ViewCell>
+                                    <Label Text="{Binding Key}" TextColor="White"/>
+                           </ViewCell>
+                     </DataTemplate>
+                </syncfusion:SfListView.GroupHeaderTemplate>
+                <syncfusion:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                               <Grid>   
+                                     <Label Text="{Binding ContactName}"/>
+                                     <Label Text="{Binding ContactNumber}">
+                              </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </syncfusion:SfListView.ItemTemplate>                
+            </syncfusion:SfListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+```
+ 
 ## Requirements to run the demo
 
 * [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) or [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/)
